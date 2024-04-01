@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mesothelioma Research Programme Database</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background-color: #f4f4f4;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    .logo {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .database {
+        font-size: 48px;
+        color: #003366;
+        margin-bottom: 50px;
+    }
+    .button {
+        background-color: #0056b3;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .button:hover {
+        background-color: #003366;
+    }
+    .dropdown-container {
+        margin-bottom: 20px;
+    }
+    .dropdown {
+        width: 200px;
+        padding: 10px;
+        margin: 10px auto;
+        border: 2px solid #0056b3;
+        border-radius: 5px;
+        background-color: white;
+    }
+    label {
+        display: block;
+        margin: 10px auto;
+        font-weight: bold;
+        color: #003366;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="./mesothelioma_logo.png" alt="University of Leicester" class="logo">
+    <div class="title">Mesothelioma Research Programme</div>
+    <div class="database">DATABASE</div>
+</div>
+
+<div class="dropdown-container">
+    <label for="project-dropdown">PROJECT</label>
+    <select id="project-dropdown" class="dropdown">
+        <option value="project1">Project 1</option>
+        <option value="project2">Project 2</option>
+        <option value="project3">Project 3</option>
+        <!-- Additional project options here -->
+    </select>
+</div>
+
+<div class="dropdown-container">
+    <label for="operation-dropdown">Operation</label>
+    <select id="operation-dropdown" class="dropdown">
+        <option value="operation1">Operation 1</option>
+        <option value="operation2">Operation 2</option>
+        <option value="operation3">Operation 3</option>
+        <!-- Additional operation options here -->
+    </select>
+</div>
+
+<button class="button">Enter</button>
+
+</body>
+</html>
